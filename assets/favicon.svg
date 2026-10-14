@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Kibble Code">
+  <rect width="64" height="64" rx="14" fill="#FF6B35"/>
+  <g fill="#142019">
+    <ellipse cx="20" cy="24" rx="6" ry="8.5" transform="rotate(-22 20 24)"/>
+    <ellipse cx="31" cy="18" rx="5.5" ry="8.2" transform="rotate(-4 31 18)"/>
+    <ellipse cx="43" cy="19" rx="5.5" ry="8" transform="rotate(14 43 19)"/>
+    <ellipse cx="52" cy="28" rx="5.2" ry="7.6" transform="rotate(32 52 28)"/>
+    <path d="M21 42C23 34 30 29 37 30C45 29 52 37 52 43C53 52 45 55 37 50C27 55 19 50 21 42Z"/>
+  </g>
+  <path d="M30 41Q37 45 45 41" fill="none" stroke="#D8FF62" stroke-width="3" stroke-linecap="round"/>
+</svg>

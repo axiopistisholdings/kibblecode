@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kibble Code — an openly AI-operated dog store</title>
+<meta name="description" content="Kibble Code is an openly AI-operated dog store for supplies and gear — leashes, harnesses, collars, beds, crates, ramps, bowls, toys and apparel. No food, treats or supplements.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kibble Code — an openly AI-operated dog store">
+<meta property="og:description" content="Dog supplies and gear, run by AI. No food, treats or supplements.">
+<meta property="og:image" content="assets/og-image.png">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=DM+Sans:opsz,wght@9..40,400..700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FFF8EE; --ink:#142019; --orange:#FF6B35; --lime:#D8FF62;
+    --muted:rgba(20,32,25,.68); --max:760px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--cream); color:var(--ink);
+    font-family:"DM Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    line-height:1.66; -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.wordmark{font-family:"Bricolage Grotesque","DM Sans",-apple-system,sans-serif; letter-spacing:-.02em}
+  a{color:var(--ink)}
+  .wrap{max-width:var(--max); margin:0 auto; padding:40px 22px 72px}
+  header{display:flex; align-items:center; gap:14px; padding-bottom:28px}
+  .wordmark{font-size:1.6rem; font-weight:800; text-decoration:none}
+  h1{font-size:clamp(2rem,6vw,3rem); line-height:1.06; margin:18px 0 10px}
+  .lede{font-size:1.18rem; color:var(--muted); margin:0 0 8px}
+  .pill{display:inline-block; background:var(--orange); color:#fff; font-weight:700;
+        padding:10px 18px; border-radius:12px; text-decoration:none; margin-top:18px}
+  .pill:hover{filter:brightness(1.05)}
+  .pill--ghost{background:var(--ink); color:var(--lime); margin-left:10px}
+  h2{font-size:1.32rem; margin:44px 0 10px}
+  table{width:100%; border-collapse:collapse; margin-top:12px; font-size:.95rem}
+  th,td{text-align:left; padding:9px 10px; border-bottom:1px solid rgba(20,32,25,.12); vertical-align:top}
+  th{font-weight:700}
+  .note{background:#fff; border:1px solid rgba(20,32,25,.1); border-radius:14px; padding:18px 20px; margin-top:16px}
+  .dedication{border-left:4px solid var(--orange); padding:6px 0 6px 16px; margin-top:36px; font-weight:600}
+  footer{margin-top:56px; padding-top:22px; border-top:1px solid rgba(20,32,25,.12);
+         font-size:.86rem; color:var(--muted); display:flex; flex-wrap:wrap; gap:10px 20px; align-items:center}
+  footer a{text-decoration:none}
+  footer a:hover{text-decoration:underline}
+  @media (prefers-reduced-motion:reduce){*{transition:none !important; animation:none !important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img src="assets/paw.svg" width="42" height="42" alt="">
+    <a class="wordmark" href="https://kibblecode.com">kibble code</a>
+  </header>
+
+  <h1>An openly AI-operated dog store.</h1>
+  <p class="lede">Dog supplies and gear — and nothing a dog eats.</p>
+  <p>
+    <a class="pill" href="https://kibblecode.com">Visit the store</a>
+  </p>
+
+  <h2>What it is</h2>
+  <p>
+    Kibble Code sells dog supplies and gear: leashes, harnesses, collars, beds, crates, ramps,
+    bowls, toys and apparel. It sells <strong>no food, treats, chews or supplements</strong>,
+    by design.
+  </p>
+  <p>
+    It is a store that says plainly what it is: <strong>run by AI.</strong> Not "AI-assisted" —
+    operated. Research, sourcing, pricing, product copy, marketing, customer service, bookkeeping
+    and order handling are carried out by software. Human hands are not on the daily work.
+  </p>
+
+  <h2>The team that runs it</h2>
+  <table>
+    <tr><th>Pointer</th><td>Research — what dog owners are looking for, and why</td></tr>
+    <tr><th>Retriever</th><td>Merchandising — finding products that fit the store</td></tr>
+    <tr><th>Gauge</th><td>Pricing — cost, shipping, duty and margin, to the cent</td></tr>
+    <tr><th>Scribe</th><td>Words — product pages and articles</td></tr>
+    <tr><th>Sentry</th><td>Stock — availability, and pulling anything that goes stale</td></tr>
+    <tr><th>Ranger</th><td>Marketing — the store's public channels</td></tr>
+    <tr><th>Scout</th><td>Customer service — the assistant you meet on the site</td></tr>
+    <tr><th>Marshal</th><td>Claims — damaged, wrong or missing items</td></tr>
+    <tr><th>Ledger</th><td>Money — costs, margins and reconciliation</td></tr>
+  </table>
+
+  <div class="note">
+    <strong>Rules enforced in code, not just requested.</strong>
+    The store will not invent a fact, a review, a price or a delivery promise, and it does not
+    sell anything a dog should eat.
+  </div>
+
+  <h2>About this repository</h2>
+  <p>
+    This is the public, brand-facing repo for Kibble Code. It presents <em>what</em> the store is.
+    It is not a build guide, and the storefront application is not published here.
+  </p>
+  <p>
+    <a class="pill pill--ghost" href="https://github.com/axiopistisholdings/kibblecode">View on GitHub</a>
+  </p>
+
+  <p class="dedication">Dedicated to the memory of Bullet (Bull Bear) Flemming.</p>
+
+  <footer>
+    <span>A brand of Axiopistis Holdings LC, Atlanta, Georgia.</span>
+    <a href="https://kibblecode.com/help">Help</a>
+    <a href="https://kibblecode.com/policies/privacy">Privacy</a>
+    <a href="https://kibblecode.com/policies/terms">Terms</a>
+    <span>AI runs the store. Dogs run the show.</span>
+  </footer>
+
+</div>
+</body>
+</html>
