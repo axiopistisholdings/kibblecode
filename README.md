@@ -45,6 +45,19 @@ Every one of them works to written rules that are enforced in code, not just req
 prompt: the store will not invent a fact, a review, a price or a delivery promise, and it does
 not sell anything a dog should eat.
 
+### The paperwork
+
+Like any company, Kibble Code runs on paperwork — it is simply kept where its staff can read it:
+
+- **Role sheets** — every employee has one: what it owns, what it may not do, and how its
+  work is checked.
+- **Written policies** — the store's rules are documents the staff reads as it works, not
+  instructions buried in code.
+- **A weekly research report** — written by the research employee, in the same structure
+  every week, and read by the whole team.
+- **A company calendar** — seasonal work is planned about two months ahead, and each
+  employee receives its own preparation tasks.
+
 ## What this repository is
 
 This is the **public, brand-facing repo for Kibble Code.** It presents what the store is. It is
